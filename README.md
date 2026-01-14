@@ -1,9 +1,15 @@
-# Serverless IoMT Stress Monitoring Application (Flutter + AWS Lambda)
-
+# Serverless IoMT Stress Monitoring Application (Flutter + AWS)
 This project is a serverless IoMT demo that retrieves Fitbit heart-rate data (OAuth 2.0), stores token/data in DynamoDB, and displays results in a Flutter mobile client.
+<div align="center">
+  <img
+    src="https://github.com/user-attachments/assets/fc0ab311-7117-4172-bce4-0aeb2e06584d"
+    width="300"
+    height="500"
+    alt="Screenshot"
+  />
+</div>
 
 ## Repo layout
-
 ```
 flutter-client/          # Flutter mobile app
 serverless-backend/      # AWS Lambda functions + shared helpers
